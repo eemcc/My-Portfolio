@@ -1,0 +1,66 @@
+*{box-sizing: border-box;}
+element.style {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contact-body {
+  background-color: #C2B9C4;
+  padding-top: 60px;
+}
+
+.nav {
+  background-color: #837a9f;
+  background-image: linear-gradient(to bottom, #fff, #837a9f);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 60px;
+}
+.nav li, ul {
+  display: inline-block;
+}
+
+.nav li {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.nav ul {
+  float: right;
+}
+
+.nav a {
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 20px 10px 20px;
+}
+
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+
+.contact-container{
+  text-align:center;
+  font-family: 'Dosis', 'courier new', 'lucida sans typwriter', sans-serif;
+  font-size: 2em;
+}
+.contact-box{
+  background-color: #FFF;
+  width:55%;
+  margin-left:23%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-header h2 {
+  font-size: 1em;
+}

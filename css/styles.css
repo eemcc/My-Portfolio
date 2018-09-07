@@ -1,0 +1,190 @@
+*{box-sizing: border-box;}
+
+element.style {
+    margin: 60px 60px;
+}
+
+body {
+  position: relative;
+  background-color: #b5b8cb;
+}
+
+/*navigation bar*/
+nav {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.projectName a, li a{
+  color: white !important;
+  font-family: 'Courier New', 'Monaco', monospace;
+}
+
+.anchor {
+  padding-bottom: 50px;
+}
+
+/*Statement*/
+.statement {
+  padding: 15% 15% 5% 15%;
+  height: 50%;
+  width: 100%;
+  background-color: #b5b8cb;
+  background-size: cover;
+  color: white;
+  text-align:center;
+  font-family: 'Courier New', 'Monaco', monospace;
+}
+
+.modal-button {
+  padding: 10px;
+  float: center;
+}
+
+.btn-secondary {
+  background-color: #cbb5c3;
+  border-color: black;
+}
+
+.modal-body{
+  height: 600px;
+}
+
+/*work images*/
+
+#work {
+  padding-top: 10%;
+  padding-bottom:10%;
+  height: 80%;
+  width: 90%;
+}
+
+.img-responsive {
+  border-radius:20px;
+}
+
+.git-img-responsive {
+  position: relative;
+}
+
+.work-img {
+  display: block;
+  margin: 10px;
+  position: relative;
+  padding: 1%;
+}
+
+.code-img {
+  display: block;
+  position: relative;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 5%;
+  color: #cbb5c3;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #767676;;
+}
+
+.proj-title {
+  font-weight: 100;
+}
+
+/*contact info*/
+
+#myinfo,
+form {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(72, 78, 81, 0.8);
+  border-radius: 10%;
+}
+
+form{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.col-lg-6  {
+  padding-left: 0px !important;
+  padding-right: 4px !important;
+}
+
+h2
+.call
+.email {
+  padding: 2% 0% 2% 0%;
+  margin-left: 10%;
+}
+
+
+#contact {
+  text-align: left;
+  font-family: 'Dosis', 'courier new', 'lucida sans typwriter', sans-serif;
+  font-size: 1.3em;
+  background-image: url("../img/teamwork.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #f4f4f4;
+  padding-top: 3%;
+  height: 40%;
+  margin-top: 3%;
+  width: 80%;
+}
+
+form p {
+  font-family: 'Dosis', 'courier new', 'lucida sans typwriter', sans-serif;
+  font-size: 1em;
+}
+
+.form-control {
+  width: 100%;
+}
+
+#message-box {
+  margin-bottom: 2%;
+}
+
+/* about me page */
+
+#about {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding-bottom: 20px;
+  background-color: #b5c3cb
+}
+
+#about h2 {
+  text-align: center;
+}
+
+/* Typography*/
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+/*footer*/
+.footer a {
+  float: left;
+}
+
+.copyright {
+  float: right;
+  color:white;
+  font-family: 'Dosis', 'courier new', 'lucida sans typwriter', sans-serif;
+}
+
+.embed-responsive-item {
+  padding-top: 10px;
+}
