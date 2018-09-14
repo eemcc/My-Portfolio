@@ -4,7 +4,7 @@ $(document).ready(function(){
 //works sections
   for(var i = 0; i < work.length; i++ ) {
     $("#work").append("\
-    <div class= 'col-md-6 col-xs-12'>\
+    <div class= 'col-md-4 col-xs-12'>\
       <a href='" + work[i].src + "' class='work-img'>\
       <img src= '" + work[i].pic + "' class='img-responsive'> \
       <span class= 'info'><p class='proj-title'>Title:</p> " + work[i].title +" \
