@@ -6,7 +6,8 @@ element.style {
 
 body {
   position: relative;
-  background-color: #A9C6D3;
+  background-color: #3C3C3C;
+  /*background-color: #A9C6D3;*/
 }
 
 /*navigation bar*/
@@ -29,7 +30,7 @@ nav {
   padding: 15% 15% 5% 15%;
   height: 50%;
   width: 100%;
-  background-color: #A9C6D3;
+  background-color: #3C3C3C;
   background-size: cover;
   color: white;
   text-align:center;
@@ -175,6 +176,7 @@ form p {
 
 #intro {
   font-size: 1.2em;
+  text-shadow: .5px .5px grey;
 }
 
 /* Typography*/
