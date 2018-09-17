@@ -173,6 +173,10 @@ form p {
   text-align: center;
 }
 
+#intro {
+  font-size: 1.2em;
+}
+
 /* Typography*/
 h2,
 h3 {
