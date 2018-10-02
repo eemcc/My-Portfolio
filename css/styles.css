@@ -42,7 +42,8 @@ nav {
   border-color: black;
 }
 
-.modal-body {
+.modal-body-1,
+.modal-body-2 {
   height: 600px;
 }
 
